@@ -13,6 +13,7 @@
     text-decoration: none;
     text-transform: capitalize;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: all 0.5s ease-in;
 }
 html{
     font-size: 62.5%;
@@ -39,6 +40,28 @@ body{
 }
 .header .navbar a{
     color: #fff;
-    font-size: 1.6rem;
+    font-size: 1.3rem;
     margin: 0 1rem;
+}
+.header .navbar a:hover{
+    color: var(--black);
+    border-top: 0.3rem solid var(--black);
+    border-bottom: 0.3rem solid var(--black);
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+.header .icons {
+    display: flex;
+}
+.header .icons div{
+    color: #fff;
+    cursor: pointer;
+    font-size: 2.2rem;
+    margin-left: 2rem;
+}
+.header .icons div:hover{
+color: var(--black);
+}
+.header .menu-icon{
+    display: none;
 }
