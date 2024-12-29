@@ -179,7 +179,7 @@ color: var(--black);
     min-height: 80vh;
     margin-top: 20vh;
     background-color: aqua;
-    background-image: url(/images/background3.jpg);
+    background-image: url(images/background3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;
