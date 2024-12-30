@@ -17,6 +17,8 @@
     text-transform: capitalize;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     transition: all 0.5s ease-in;
+    scroll-behavior: smooth;
+    scroll-padding-top: 16vh;
 }
 html{
     font-size: 62.5%;
@@ -286,4 +288,64 @@ color: var(--black);
     margin-left: 1rem;
     font-size: 1.4rem;
     text-decoration: line-through;
+}
+/*--new arrivals section--*/
+.new-arrivals .wrapper .card{
+    background-color: #ffdca9;
+    border:var(--border);
+}
+.new-arrivals .wrapper .card .img img{
+height: 100%;
+object-fit: contain;
+width: 100%;
+}
+.new-arrivals .wrapper .card .content{
+    padding: 2rem;
+}
+.new-arrivals .wrapper .card .content a:nth-of-type(1){
+    font-size: 2.5rem;
+    line-height: 5rem;
+    color: var(--black);
+}
+.new-arrivals .wrapper .card .content p{
+    color:grey;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+}
+.new-arrivals .wrapper .card .content .btn{
+    transform: scale(0);
+}
+.new-arrivals .wrapper .card:hover .content .btn{
+    transform: scale(1);
+}
+.new-arrivals .wrapper .card:hover .content p{
+    color: var(--black);
+}
+/*--about--*/
+.about .container{
+    display: flex;
+    justify-content: center;
+    background-color: var(--black);
+    flex-wrap: wrap;
+}
+.about .container .img{
+    flex: 1 1 45rem;
+}
+.about .container .img img{
+    height: 100%;
+}
+.about .container .content{
+    flex: 1 1 45rem;
+    padding: 2rem;
+}
+.about .container .content h4{
+    font-size: 3rem;
+    color: #fff;
+    padding: 1.2rem 0;
+}
+.about .container .content p{
+    font-size: 1.6rem;
+    color: #ccc;
+    padding: 1.2rem 0;
+    line-height: 2.2rem;
 }
