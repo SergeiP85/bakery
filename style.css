@@ -4,6 +4,8 @@
     --bg-color:#e8f3fa;
     --black:#2f4858;
     --card-color:#c0dbea;
+    --border: 0.1rem solid var(--card-color);
+    --box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 *{
     margin: 0;
@@ -220,6 +222,7 @@ color: var(--black);
 }
 .cakes .wrapper .cake-card img{
     width: 100%;
+    height:20rem;
 }
 .cakes .wrapper .cake-card h3{
     color: #fff;
@@ -235,5 +238,52 @@ color: var(--black);
     margin-left: 1rem;
     color: #fff;
     font-size: 1.8rem;
+    text-decoration: line-through;
+}
+/*--cheese cakes section--*/
+.cheese-cakes .wrapper .cheese-card{
+    text-align: center;
+    background-color: #eac7c7;
+    padding: 2rem;
+    border: var(--border);
+}
+.cheese-cakes .wrapper .cheese-card:hover{
+    box-shadow:var(--box-shadow);
+}
+.cheese-cakes .wrapper .cheese-card .icons a{
+    border: var(--border);
+    height: 5rem;
+    width: 5rem;
+    color: #fff;
+    font-size: 2rem;
+    line-height: 5rem;
+    margin: 0.3rem;
+}
+.cheese-cakes .wrapper .cheese-card .icons a:hover{
+    background-color: var(--main-color);
+    box-shadow: var(--box-shadow);
+}
+.cheese-cakes .wrapper .cheese-card .img img{
+    height: 20rem;
+}
+.cheese-cakes .wrapper .cheese-card .content h2{
+    color: #fff;
+    font-size: 2.5rem;
+    margin: 1rem 0;
+}
+.cheese-cakes .wrapper .cheese-card .content .stars{
+    padding: 1.8rem;
+}
+.cheese-cakes .wrapper .cheese-card .content .stars i{
+    font-size: 1.5rem;
+    color: var(--main-color);
+}
+.cheese-cakes .wrapper .cheese-card .content .price{
+    color: #fff;
+    font-size: 1.8rem;
+}
+.cheese-cakes .wrapper .cheese-card .content .price span{
+    margin-left: 1rem;
+    font-size: 1.4rem;
     text-decoration: line-through;
 }
