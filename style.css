@@ -336,7 +336,7 @@ width: 100%;
 }
 .about .container .content{
     flex: 1 1 45rem;
-    padding: 2rem;
+    padding: 2rem ;
 }
 .about .container .content h4{
     font-size: 3rem;
